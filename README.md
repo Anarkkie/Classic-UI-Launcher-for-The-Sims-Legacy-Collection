@@ -94,9 +94,8 @@ If your monitor doesn’t list certain resolutions (e.g. **1066x600**, **1365×7
 ## :bulb: Typical Use Cases
 
 - **1440p/4K Displays**  
-  - Avoid pixelated UI and mismatched scaling by letting the GPU handle it.  
-- **1080p Users Wanting Larger UI**  
-  - Switch down to 1365×768 for bigger 2D elements without ugly black borders.  
+  - Switch down to 1920x1080 to avoid pixelated UI and mismatched scaling by letting the GPU handle it.  
+- **1080p Users Wanting Larger UI**    - Switch down to 1365×768 for bigger 2D elements and ugly black borders.  
 - **Disliking Default Scaling**  
   - If The Sims Legacy Collection’s “fullscreen” scaling annoys you, this provides a more authentic, old-school experience.
 
