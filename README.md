@@ -20,9 +20,9 @@ A **portable tool** that forces **The Sims Legacy Collection** to use **your mon
 ## :warning: Warnings
 
 1. **Antivirus Alerts**  
-   - Compiled scripts + **NirCmd** can trigger **false positives**. If you trust Classic UI Launcher, **whitelist** it and your Sims folder.  
+   - Compiled scripts + **NirCmd** can trigger **false positives**. If you trust Classic UI Launcher, **whitelist** it and your Sims Legacy folder. Source is available for your review.  
 2. **Custom Resolutions**  
-   - Resolutions like **768p** or **1365×768** might need **custom resolution** setups in your GPU control panel (NVIDIA/AMD/Intel).  
+   - Resolutions like **1066x600** or **1365×768** might need **custom resolution** setups in your GPU control panel (NVIDIA/AMD/Intel).  
 3. **Installer Needs Admin Rights**  
    - **`Classic UI Launcher Setup.exe`** only (to create shortcuts and copy files).  
    - **`Classic UI Launcher.exe`** does **not** require elevation.  
@@ -36,7 +36,7 @@ A **portable tool** that forces **The Sims Legacy Collection** to use **your mon
 - **Monitor Compatibility**  
   - Some displays reject or limit certain resolutions (especially non-standard aspect ratios).  
 - **GPU Scaling**  
-  - For best results, set your GPU’s **Scaling Mode** to **Aspect Ratio** (or “Preserve Aspect Ratio”) so it handles any resizing, not your display.
+  - For best results, set your GPU’s **Scaling Mode** to **Aspect Ratio** (or “Preserve Aspect Ratio”) so it handles any resizing, not your display. Also make sure to perform scaling on GPU.
 
 ---
 
@@ -64,9 +64,9 @@ A **portable tool** that forces **The Sims Legacy Collection** to use **your mon
      **OR**  
    - Copy its contents directly into your **The Sims Legacy** folder.  
 3. **Whitelist**  
-   - **Recommended**: Whitelist the folder where you put Classic UI Launcher, plus The Sims install folder, to avoid antivirus flags.  
+   - **Recommended**: Whitelist the folder where you put Classic UI Launcher, plus The Sims Legacy install folder, to avoid antivirus flags.  
 4. **Run Setup**  
-   - Double-click **`Classic UI Launcher Setup.exe`**, choose a resolution, and create shortcuts if desired.  
+   - Double-click **`Classic UI Launcher Setup.exe`**, follow prompts and choose a resolution. 
 5. **Done**  
    - Launch via **Classic UI Launcher** shortcut or **`Classic UI Launcher.exe`**. No further config needed unless you change monitors or move files.
 
@@ -74,7 +74,7 @@ A **portable tool** that forces **The Sims Legacy Collection** to use **your mon
 
 ## :wrench: Custom Resolution & Scaling
 
-If your monitor doesn’t list certain resolutions (e.g. **768p**, **1365×768**), **create** them in your GPU software:
+If your monitor doesn’t list certain resolutions (e.g. **1066x600**, **1365×768**), **create** them in your GPU software:
 
 ### NVIDIA Control Panel
 1. **Right-click** desktop → **NVIDIA Control Panel**  
@@ -96,7 +96,7 @@ If your monitor doesn’t list certain resolutions (e.g. **768p**, **1365×768**
 - **1440p/4K Displays**  
   - Avoid pixelated UI and mismatched scaling by letting the GPU handle it.  
 - **1080p Users Wanting Larger UI**  
-  - Switch down to 768p or 1365×768 for bigger 2D elements without ugly black borders.  
+  - Switch down to 1365×768 for bigger 2D elements without ugly black borders.  
 - **Disliking Default Scaling**  
   - If The Sims Legacy Collection’s “fullscreen” scaling annoys you, this provides a more authentic, old-school experience.
 
