@@ -1,4 +1,5 @@
 # **Classic UI Launcher** :video_game:
+**A Sims Legacy Collection UI Fix**
 
 A **portable tool** that forces **The Sims Legacy Collection** to use **your monitor or GPU** for resolution scaling—keeping **2D and 3D elements** at a classic **1:1 ratio** instead of letting the game’s internal scaler stretch things awkwardly.
 
