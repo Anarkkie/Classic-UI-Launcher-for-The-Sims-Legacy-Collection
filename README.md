@@ -139,3 +139,6 @@ If your monitor doesn’t list certain resolutions (e.g. **768p**, **1365×768**
 For questions or issues, check the [**GitHub Repo**](https://github.com/Anarkkie/Classic-UI-Launcher-for-The-Sims-Legacy-Collection) or open an issue.  
 
 Enjoy your **classic** Sims experience!
+
+Related Links:
+https://www.reddit.com/r/thesims1/s/ENk8UhxN9V
