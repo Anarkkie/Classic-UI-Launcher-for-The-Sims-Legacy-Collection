@@ -141,4 +141,6 @@ For questions or issues, check the [**GitHub Repo**](https://github.com/Anarkkie
 Enjoy your **classic** Sims experience!
 
 Related Links:
-https://www.reddit.com/r/thesims1/s/ENk8UhxN9V
+- https://github.com/Anarkkie/Classic-UI-Launcher-for-The-Sims-Legacy-Collection
+- https://www.reddit.com/r/thesims1/s/ENk8UhxN9V
+- https://steamcommunity.com/app/3314060/discussions/0/550108023198062592/
