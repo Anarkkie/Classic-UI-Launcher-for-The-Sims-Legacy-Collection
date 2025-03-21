@@ -112,8 +112,6 @@ If your monitor doesn’t list **1066x600**, **960x720**, or **1365x768**, **cre
    - Only to run **Setup.exe**, so it can create shortcuts and write to The Sims folder. The launcher itself is fine without elevation.  
 5. **Isn’t lower resolution blurry?**  
    - Sure, lower-than-native is softer. But it enlarges the UI, which many players prefer for the classic Sims vibe.
-6. **I'm running a 1440p monitor and I can't choose 2560x1440 in this installer!**
-   - For now, the resolution for this mod is capped at 1080p. This the highest resolution that cleanly scales the game for this mod's purpose. 
 
 ---
 
