@@ -66,7 +66,7 @@ The Sims Legacy Collection's internal method of scaling is strange, often result
 ## Installation
 
 1. **Download**  
-   - [**Get the latest version**](https://github.com/Anarkkie/Classic-UI-Launcher-for-The-Sims-Legacy-Collection/releases/tag/v1.0).  
+   - [**Get the latest version**](https://github.com/Anarkkie/Classic-UI-Launcher-for-The-Sims-Legacy-Collection/releases/tag/v1.0a).  
 2. **Extract ZIP**  
    - Place **"Classic UI Launcher"** anywhere you like  
      **OR**  
