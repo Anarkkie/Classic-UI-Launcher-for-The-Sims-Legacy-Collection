@@ -45,7 +45,7 @@ The Sims Legacy Collection's internal method of scaling is strange, often result
 1. **Antivirus Alerts**  
    - Compiled scripts + **NirCmd** can trigger **false positives**. If you trust Classic UI Launcher, **whitelist** it and your Sims Legacy install folder. Source is available for your review. [source code on GitHub](https://github.com/Anarkkie/Classic-UI-Launcher-for-The-Sims-Legacy-Collection)  
 2. **Custom Resolutions**  
-   - Oddball like **1066x600**, **1365×768**, etc. might need **custom resolution** setups in your GPU control panel (NVIDIA/AMD/Intel).  
+   - Oddball resolutions like **1066x600**, **1365×768**, etc. might need **custom resolution** setups in your GPU control panel (NVIDIA/AMD/Intel).  
 3. **Installer Needs Admin Rights**  
    - **`Classic UI Launcher Setup.exe`** only (to create shortcuts and copy files).  
    - **`Classic UI Launcher.exe`** does **not** require elevation.  
