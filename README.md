@@ -11,7 +11,7 @@ Properly scales the game when running below your monitor's native resolution.
   - Instantly restores your native resolution after you exit the game.  
 - **Preserves True 1:1 Ratio**  
   - Keeps the 2D UI and 3D world aligned as intended, free from the game’s internal scaling quirks.  
-- **Easy Setup**  
+- **Easy Setup** but does require some steps.  
   - A guided installer helps you pick a resolution and set up shortcuts.  
 - **Portable & Open Source** 
 
@@ -20,7 +20,7 @@ Properly scales the game when running below your monitor's native resolution.
 ## Typical Use Cases      
 
 - **1440p/4K Displays**  
-  - Switch down to 1920x1080 to avoid pixelated UI and mismatched scaling by letting the GPU and monitor handle it.  
+  - Switch down to 1920x1080 to avoid pixelated UI and mismatched scaling by letting the GPU and monitor handle it. 
 - **1080p Displays**  
   - Switch down to 1365×768 for a larger UI and no ugly black borders. Having the monitor and GPU handle the scaling.  
 - **Disliking Default Scaling**  
@@ -112,6 +112,8 @@ If your monitor doesn’t list **1066x600**, **960x720**, or **1365x768**, **cre
    - Only to run **Setup.exe**, so it can create shortcuts and write to The Sims folder. The launcher itself is fine without elevation.  
 5. **Isn’t lower resolution blurry?**  
    - Sure, lower-than-native is softer. But it enlarges the UI, which many players prefer for the classic Sims vibe.
+6. **I'm running a 1440p monitor and I can't choose 2560x1440 in this installer!**
+   - For now, the resolution for this mod is capped at 1080p. This the highest resolution that cleanly scales the game for this mod's purpose. 
 
 ---
 
