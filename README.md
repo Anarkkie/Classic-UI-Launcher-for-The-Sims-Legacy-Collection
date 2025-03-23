@@ -7,51 +7,7 @@ Classic UI Launcher automates the process of changing your monitor's resolution 
 
 Run the installer, follow the instructions, select the resolution you want The Sims Legacy Collection to run at, use Classic UI Launcher to launch the game!
 
-*To be clear, this is designed to run your game lower than your monitor's native resolution for people that need that function.* **Probable use cases are listed below.**
-
----
-
-## 🎯 Typical Use Cases
-
-I recommend capping the in-game resolution to **1080p** if you can stand the black borders introduced at this resolution. Otherwise I recommend using **1365x768**. 
-- Selecting **1440p** or **4K** as your in-game resolution will result in the same strange scaling behavior as the default `Sims.exe`. 
-
-- 🖥️ **1440p / 4K Displays** (*2560x1440 / 3840x2160*)
-  Switch to **1920×1080** to eliminate the pixelated UI.
-
-- 🖥️ **1080p Displays** (*1920x1080*) 
-  Drop to **1365×768** for a larger UI and no black bars on the neighborhood screen.
-
-- 🖥️ **768p Displays** (*1366x768*)
-  Drop to **1365x768** for a properly scaled UI without scaling artifacts.
-
-- 🖥️ **720p Displays**
-  Supported but not much of a reason to use this program unless you want to have 800x600 or 1066x600 scaled by your monitor.
-
-- 📺 **4:3 Displays**
-  Supported.
-
-- 😤 **Scaling Annoyances**  
-  If you hate the Sims Legacy Collection’s built-in fullscreen behavior, this gives you proper scaling with more options.
-
----
-
-## 🚨 Warnings
-
-1. 🛡️ **Antivirus Alerts**  
-   `nircmd.exe` and compiled scripts may trigger false positives. Whitelist the extracted `Classic UI Launcher` folder and your `The Sims Legacy` folder before running the installer.
-   **Note from the Author:** *"Malwarebytes flags this on my system as well. Take a look at the source code on GitHub. The `.ahk` files are easily viewable*
-   Source is fully available: [GitHub Repository](https://github.com/Anarkkie/Classic-UI-Launcher-for-The-Sims-Legacy-Collection)
-
-3. 🧮 **Custom Resolutions**  
-   Some resolutions (e.g., **1365×768**, **960×720**, **1066×600**) may need to be created manually in your GPU software.
-
-4. 🔐 **Admin Rights**  
-   - Only **`Classic UI Launcher Setup.exe`** requires admin to create shortcuts.  
-   - The launcher itself (**`Classic UI Launcher.exe`**) runs fine without elevation.
-
-5. 🚫 **No Game File Changes**  
-   Your Sims installation remains intact. You can still use the regular launcher anytime.
+*To be clear, this is designed to run your game lower than your monitor's native resolution for people that need that function. However, you still have full control over your in-game resolution.* **Probable use cases are listed below.**
 
 ---
 
@@ -64,7 +20,7 @@ I recommend capping the in-game resolution to **1080p** if you can stand the bla
   Instantly restores your native resolution after you quit.
 
 - 🧩 **Eliminates the Pixelated UI Issue**   
-  By capping your game to **1080p** or lower.
+  By capping your game to **1080p** or **768p**. 
 
 - 🛠️ **Easy Setup (Some Steps Required)**  
   A guided installer walks you through setting everything up and picking your desired internal resolution.
@@ -74,16 +30,41 @@ I recommend capping the in-game resolution to **1080p** if you can stand the bla
 
 ---
 
+## 🎯 Typical Use Cases
+
+🧠 I recommend capping the in-game resolution to **1080p** if you can stand the black borders introduced at this resolution. Otherwise I recommend using **1365x768**.
+> ⚠️ Selecting **1440p** or **4K** as your in-game resolution will result in the same strange scaling behavior as the default `Sims.exe`. 
+
+- 🖥️ **1440p / 4K Displays** (*2560x1440 / 3840x2160*)
+  - Run the game at **1920×1080** to eliminate the pixelated UI.
+  - Run the game at **1365x768** to work around the black border issue.
+
+- 🖥️ **1080p Displays** (*1920x1080*) 
+  - Run the game at **1365×768** to work around the black border issue
+    - This increases the apparent size of the UI.  
+- 🖥️ **768p Displays** (*1366x768*)
+  - Drop to **1365x768** for a properly scaled UI without scaling artifacts.
+
+- 🖥️ **720p Displays**
+  - Supported but not much of a reason to use this program unless you want to have 800x600 or 1066x600 scaled by your monitor.
+
+- 📺 **4:3 Displays**
+  - Supported.
+
+- 😤 **Scaling Annoyances**  
+  - If you hate the Sims Legacy Collection’s built-in fullscreen behavior, this gives you proper scaling with more options.
+
+---
+
 ## ⚠️ The Problem
 
-❌ The default `Sims.exe`:
-  - Uses *weird internal scaling* that separates 2D and 3D elements, leading to pixelation and scaling artifacts at **native 1440p and above** or when running the game at a resolution lower than your monitor’s native resolution.
+>❌ The default `Sims.exe`: Uses *weird internal scaling* that separates 2D and 3D elements, leading to pixelation and scaling artifacts at **native 1440p and above** or when running the game at a resolution lower than your monitor’s native resolution.
   - 🔍 On **4K and 1440p monitors**:
     - Running the game at **native** causes severe **UI pixelation** — especially in menus and dialogs — because the game was never meant to be viewed at those pixel densities.
   - 📐 At **1080p and lower**:
-    - The game actually looks sharp and scales correctly *if* the in-game resolution matches the monitor's native resolution. However, the **black bars** on the neighborhood and Create-a-Sim screens drive some users crazy.
+    - The game actually looks sharp and scales correctly *if* the in-game resolution matches the monitor's native resolution. However, the **black borders** on the neighborhood and Create-a-Sim screens drive some users crazy.
   
-🌀 Lowering the in-game resolution using the default launcher leads to **worse image quality**, *leaving **1080p**, **1440p**, and **4K** users stuck* with blocky visuals and pixelated UI.
+🌀 Lowering the in-game resolution using the default launcher scales terribly, *leaving **1080p**, **1440p**, and **4K** users stuck* with black borders, blocky visuals, or a pixelated UI.
 
 
 ✅ Classic UI Launcher solves this by letting **your GPU and monitor** handle the resolution scaling instead of the game. You get a **clean, properly scaled UI** even at lower-than-native resolutions.
@@ -92,7 +73,7 @@ I recommend capping the in-game resolution to **1080p** if you can stand the bla
 
 ## ✅ The Solution
 
-Classic UI Launcher shifts all resolution scaling responsibility away from `Sims.exe` and hands it over to **your GPU and monitor**, which are much better at the job.
+>Classic UI Launcher shifts all resolution scaling responsibility away from `Sims.exe` and hands it over to **your GPU and monitor**, which are much better at the job.
 
 Instead of modifying the game itself, the launcher:
 - 🔧 **Temporarily switches your monitor** to your chosen resolution before launching the game.
@@ -100,17 +81,36 @@ Instead of modifying the game itself, the launcher:
 - 🔐 Leaves all Sims files untouched — it's fully external and reversible.
 
 🖱️ You’re free to choose from several internal game resolutions during setup, including:
-- 🖼️ **Your monitor's native resolution** (*1440p and 4k will retain default `Sims.exe` scaling behavior*)
-- 📏 Or **lower resolutions** like 1365×768, 960×720, or 1066×600 for cleaner UI scaling or to remove black borders.
+- 🖼️ **Your monitor's native resolution** (***1440p** and **4k** will retain default `Sims.exe` scaling behavior*)
+- 📏 Or **lower resolutions** like **1365×768**, **960×720**, or **1066×600** for cleaner UI scaling or to remove black borders.
 
 - 💡 It’s especially helpful for:
-  - 📏 **1080p users** who want to run at **1365×768** to get a larger UI and remove black borders *without* blurring.
+  - 📏 **1080p users** who want to run at **1365×768** to get a larger UI and remove black borders.
   - 🧼 **1440p and 4K users** who want to run at **1080p** for a smoother-looking UI without pixelation, while keeping everything sharp through proper GPU scaling.
 
 🛠️ The setup is **re-runnable at any time**, so you can change your preferred resolution whenever you like.
 
 ⚙️ If you take the time to set up **custom resolutions** and configure your **GPU’s scaling mode** (e.g. “preserve aspect ratio” and “scale on GPU”), the experience becomes seamless going forward.  
 That GPU setup only needs to be done **once**, and from then on, launching and playing will be totally smooth.
+
+---
+
+## 🚨 Warnings
+
+1. 🛡️ **Antivirus Alerts**  
+   `nircmd.exe` and compiled scripts may trigger false positives. Whitelist the extracted `Classic UI Launcher` folder and your `The Sims Legacy` folder before running the installer.
+   >**Note from the Author:** *Malwarebytes flags this on my system as well. If you wanna inspect further, the `.apk` files on GitHub are viewable.*
+   - Source is fully available: [GitHub Repository](https://github.com/Anarkkie/Classic-UI-Launcher-for-The-Sims-Legacy-Collection)
+
+3. 🧮 **Custom Resolutions**  
+   Some resolutions (e.g., **1365×768**, **960×720**, **1066×600**) may need to be created manually in your GPU software.
+
+4. 🔐 **Admin Rights**  
+   - Only **`Classic UI Launcher Setup.exe`** requires admin to create shortcuts.  
+   - The launcher itself (**`Classic UI Launcher.exe`**) runs fine without elevation.
+
+5. 🚫 **No Game File Changes**  
+   Your Sims installation remains intact. You can still use the regular launcher anytime.
 
 ---
 
@@ -162,16 +162,16 @@ That GPU setup only needs to be done **once**, and from then on, launching and p
 > It switches your monitor to a chosen resolution *before* the game boots, and switches back afterward. This avoids the game’s bad scaling.
 
 **Will this break anything?**  
-> No. It doesn't touch Sims.exe or any core files. It only changes display settings temporarily.
+> No. It doesn't touch `Sims.exe` or any core files. It only changes display settings temporarily.
 
 **Why is my antivirus flagging this?**  
-> NirCmd and compiled scripts can be falsely flagged. Check the [GitHub repo](https://github.com/Anarkkie/Classic-UI-Launcher-for-The-Sims-Legacy-Collection) if you want to build it yourself.
+> NirCmd and compiled scripts can be falsely flagged. Check the [GitHub repo](https://github.com/Anarkkie/Classic-UI-Launcher-for-The-Sims-Legacy-Collection).
 
 **Do I need admin rights?**  
 > Only for the Setup to make shortcuts and copy files. The launcher itself runs without admin.
 
 **Isn’t lowering my resolution just blurry?**  
-> Yes, in a sense — but that’s kind of the point. Your monitor’s GPU-based scaling looks **much better** than the game's internal one, especially for Sims 1.  
+> Yes, in a sense — but that’s kind of the point. Your monitor’s GPU-based scaling looks **much better** than the game's internal one. 
 > It smooths the UI and gives it that *classic*, authentic look.
 
 **EA App Initialization Failed. The game failed to successfully launch from the EA App.**
@@ -207,8 +207,8 @@ That GPU setup only needs to be done **once**, and from then on, launching and p
 - 🖥️ **Resolution Switching**: [NirCmd](https://www.nirsoft.net/utils/nircmd.html)  
 - 🧾 **Scripting**: [AutoHotkey](https://www.autohotkey.com/)
 
-Thanks to everyone in the Sims community for testing and feedback! ❤️  
-Issues or questions? Check the GitHub repo or open a support thread.
+>Thanks to everyone in the Sims community for testing and feedback! ❤️  
+>Issues or questions? Check the GitHub repo or open a support thread.
 
 ---
 
