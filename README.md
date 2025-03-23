@@ -1,5 +1,5 @@
 # 🎮 Classic UI Launcher
-## A Sims Legacy Collection UI Fix
+>A Sims Legacy Collection UI Fix
 
 Classic UI Launcher automates the process of changing your monitor's resolution when you start the game in order to bypass the in-game scaling behaviors. It automatically switches your monitor’s resolution *before* the game launches, and restores it to native *after* you exit.
 
