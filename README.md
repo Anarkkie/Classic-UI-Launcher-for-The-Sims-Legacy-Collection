@@ -67,7 +67,7 @@ Run the installer, follow the instructions, select the resolution you want The S
 🌀 Lowering the in-game resolution using the default launcher scales terribly, *leaving **1080p**, **1440p**, and **4K** users stuck* with black borders, blocky visuals, or a pixelated UI.
 
 
-✅ Classic UI Launcher solves this by letting **your GPU and monitor** handle the resolution scaling instead of the game. You get a **clean, properly scaled UI** even at lower-than-native resolutions.
+>✅ Classic UI Launcher solves this by letting **your GPU and monitor** handle the resolution scaling instead of the game. You get a **clean, properly scaled UI** even at lower-than-native resolutions.
 
 ---
 
@@ -90,7 +90,7 @@ Instead of modifying the game itself, the launcher:
 
 🛠️ The setup is **re-runnable at any time**, so you can change your preferred resolution whenever you like.
 
-⚙️ If you take the time to set up **custom resolutions** and configure your **GPU’s scaling mode** (e.g. “preserve aspect ratio” and “scale on GPU”), the experience becomes seamless going forward.  
+>⚙️ If you take the time to set up **custom resolutions** and configure your **GPU’s scaling mode** (e.g. “preserve aspect ratio” and “scale on GPU”), the experience becomes seamless going forward.  
 That GPU setup only needs to be done **once**, and from then on, launching and playing will be totally smooth.
 
 ---
@@ -135,8 +135,7 @@ That GPU setup only needs to be done **once**, and from then on, launching and p
 ---
 
 ## 🧠 Custom Resolution Setup
-
-**1365x768**, **960x720**, or **1066x600** most likely need to have custom resolutions created:
+>**1365x768**, **960x720**, or **1066x600** most likely need to have custom resolutions created:
 
 ### 🟩 NVIDIA
 - Right-click desktop → **NVIDIA Control Panel**  
